@@ -12,7 +12,7 @@ namespace Uppgift_3._8
             {
                 Console.WriteLine("You may paticipat in the competition");
             }
-            if (age <= 16)
+            else if (age <= 16)
             {
                 Console.WriteLine("You are to young to enter this competition");
             }
